@@ -1,17 +1,17 @@
 body{
-    background: rgb(141, 228, 225);
+    background: rgb(141, 197, 228);
 }
 
 .full{
     position: relative;
     top: 4px;
     left: 4px;
-    background-image: url(https://source.unsplash.com/random/150px×150px);
+    background-image: url('https://source.unsplash.com/random/150×150');
     width: 150px;
     height: 150px;
     border-radius: 5px;
     cursor: pointer;
-    box-shadow: 1px 1px 4px rgba(22, 50, 68, 0.75);
+    box-shadow: 1px 1px 4px rgba(53, 86, 108, 0.75);
 }
 
 .empty{
@@ -26,7 +26,11 @@ body{
    box-shadow: 4px 4px 8px rgba(22, 50, 68, 0.75);
 }
 
-.hover{
+.hovered{
   background: rgb(196, 220, 223);
-  border: 3px dashed rgb(112, 211, 233);
+  border: 3px dashed rgb(20, 223, 159);
+}
+
+.invisible{
+  display: none;
 }
